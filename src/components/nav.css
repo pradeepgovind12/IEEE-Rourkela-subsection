@@ -1,0 +1,118 @@
+.nav{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(69, 69, 69);
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.home-top{
+    display: flex;
+}
+.home-top-left{
+    flex: 2;
+    text-align: center;
+    padding-top: 5px;
+    color: rgb(16, 11, 108);
+    font-weight: bold;
+    font-style: inherit;
+}
+.home-top-right{
+    flex: 1;
+    text-align: center;
+    padding-top: 10px;
+}
+.home-top-mid{
+    flex: 1;
+    text-align: center;
+}
+.img{
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.home-top-text{
+    font-size: 40px;
+}
+.home-icon{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(16, 11, 108);
+    cursor: pointer;
+}
+.home-icon:hover{
+    color: rgb(30, 156, 187);
+}
+.home-middle{
+    display: flex;
+    height: 60px;
+    background-color: rgb(9, 115, 246);
+    color: white;
+}
+.home-middle-left{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.home-middle-right{
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.home-middle-links{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+.dropbtn {
+  background-color: rgb(9, 115, 246);
+  color: white;
+  font-size: 18px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  cursor: pointer;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: rgb(16, 11, 108);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.drop{
+    margin-left: 10px;
+}

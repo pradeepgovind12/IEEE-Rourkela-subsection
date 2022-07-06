@@ -1,0 +1,36 @@
+.footer{
+    margin-top: 5px;
+}
+.footer-upper{
+    height: 250px;
+    background-color: rgb(31, 122, 159);
+    display: flex;
+    color: white;
+}
+.footer-part{
+    flex: 1;
+    padding: 20px;
+}
+.list-items{
+    list-style-type: circle;
+    padding-top:3px;
+}
+.text{
+    height: 50px;
+    padding-top: 20px;
+    margin-top:0;
+    margin-bottom: 3px;
+    text-align: center;
+    background-color:rgb(31, 122, 159);
+    color: white;
+}
+.footer-lower{
+    height: 80px;
+    background-color: rgb(61, 57, 57);
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+.footer-content{
+    cursor: pointer;
+}

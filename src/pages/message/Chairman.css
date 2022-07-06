@@ -1,0 +1,36 @@
+.chairman-container{
+    margin: 0 7%;
+    margin-bottom: 50px;
+}
+.chairman-container-1{
+   display: flex;
+   justify-content: center;
+}
+.chairman-img{
+    height: 150px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+.chairman-container-3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.chairman-span{
+    display: block;
+}
+.chairman-para{
+    text-align: justify;
+}
+.chairman-btn{
+    margin-right: 10px;
+    height: 30px;
+    align-items: center;
+    background-color: rgb(64, 64, 173);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.chairman-btn:hover{
+    background-color: rgb(87, 20, 132);
+}
