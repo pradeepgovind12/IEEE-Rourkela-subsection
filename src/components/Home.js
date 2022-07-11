@@ -120,7 +120,7 @@ export default function Home() {
             />
             <div className="event-2">
               <h1 className="event-date">18 May 2022</h1>
-              <h2 className="event-name"></h2>
+              <h2 className="event-name">CALCON 2022</h2>
               <p className="event-des">
                 CALCON is the flagship conference of the IEEE Kolkata Section.
               </p>
@@ -129,7 +129,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <button className="event-button">Rourkela Section's Events</button>
+      <Link className="link" to="/event">
+        <button className="event-button">Rourkela Subsection's Events</button>
+      </Link>
+
       <div className="message">
         <div className="message-left">
           <img

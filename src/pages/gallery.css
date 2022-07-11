@@ -6,6 +6,7 @@
 }
 .gallery-image-wrapper{
     width: 33%;
+    cursor: pointer;
 }
 .gallery-images-wrapper{
     display: flex;

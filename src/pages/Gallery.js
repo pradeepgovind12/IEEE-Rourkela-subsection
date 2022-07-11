@@ -80,7 +80,6 @@ export default function Gallery() {
       src: "https://ewh.ieee.org/r10/calcutta/images/PhotoGallery/tensymp2019/IMGL6951.jpg",
     },
   ];
-  const n = photos.size;
   const handleOpen = (i) => {
     setSlideNumber(i);
     setOpen(true);
@@ -90,9 +89,9 @@ export default function Gallery() {
     let newSlideNumber;
   
     if (direction === "l") {
-      newSlideNumber = slideNumber === 0 ? n-1 : slideNumber - 1;
+      newSlideNumber = slideNumber === 0 ? 24 : slideNumber - 1;
     } else {
-      newSlideNumber = slideNumber === n-1 ? 0 : slideNumber + 1;
+      newSlideNumber = slideNumber === 24 ? 0 : slideNumber + 1;
     }
 
     setSlideNumber(newSlideNumber);

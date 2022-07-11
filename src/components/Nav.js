@@ -79,128 +79,80 @@ export default function Nav() {
         </div>
       </div>
       <div className="home-middle">
-        <div className="home-middle-left">
-          <ul className="home-middle-links">
-            <Link className="link" to="/">
-              Home
-            </Link>
-          </ul>
-          <ul className="home-middle-links">
-            <Link className="link" to="/about">
-              About
-            </Link>
-          </ul>
-          <ul className="home-middle-links">
-            <Link className="link" to="/gallery">
-              Gallery
-            </Link>
-          </ul>
-          <ul className="home-middle-links">
-            <Link className="link" to="/email">
-              Contact
-            </Link>
-          </ul>
-        </div>
-        <div className="home-middle-right">
-          <div className="dropdown home-middle-links">
-            <button className="dropbtn">
-              Organizations units<i className="fa-solid fa-caret-down drop"></i>
-            </button>
-            <div class="dropdown-content">
-              <a className="link" href="http">
-                Link 1
-              </a>
-              <a className="link" href="http">
-                Link 2
-              </a>
-              <a className="link" href="http">
-                Link 3
-              </a>
-              <a className="link" href="http">
-                Link 4
-              </a>
-              <a className="link" href="http">
-                Link 5
-              </a>
-              <a className="link" href="http">
-                Link 6
-              </a>
-              <a className="link" href="http">
-                Link 7
-              </a>
-            </div>
-          </div>
-          <div className="dropdown home-middle-links">
-            <button className="dropbtn">
-              Adminstrative Zone<i className="fa-solid fa-caret-down drop"></i>
-            </button>
-            <div className="dropdown-content">
-              <a className="link" href="http">
-                Link 1
-              </a>
-              <a className="link" href="http">
-                Link 2
-              </a>
-              <a className="link" href="http">
-                Link 3
-              </a>
-              <a className="link" href="http">
-                Link 4
-              </a>
-              <a className="link" href="http">
-                Link 5
-              </a>
-            </div>
-          </div>
-          <div className="dropdown home-middle-links">
-            <button className="dropbtn">
-              Activities<i className="fa-solid fa-caret-down drop"></i>
-            </button>
-            <div className="dropdown-content">
-              <a className="link" href="http">
-                Link 1
-              </a>
-              <a className="link" href="http">
-                Link 2
-              </a>
-              <a className="link" href="http">
-                Link 3
-              </a>
-              <a className="link" href="http">
-                Link 4
-              </a>
-            </div>
-          </div>
-          <div class="dropdown home-middle-links">
-            <button class="dropbtn">
-              {" "}
-              Resources<i className="fa-solid fa-caret-down drop"></i>
-            </button>
-            <div class="dropdown-content">
-              <a className="link" href="http">
-                Link 1
-              </a>
-              <a className="link" href="http">
-                Link 2
-              </a>
-              <a className="link" href="http">
-                Link 3
-              </a>
-              <a className="link" href="http">
-                Link 4
-              </a>
-              <a className="link" href="http">
-                Link 5
-              </a>
-              <a className="link" href="http">
-                Link 6
-              </a>
-              <a className="link" href="http">
-                Link 7
-              </a>
-            </div>
+        <ul className="home-middle-links">
+          <Link className="link" to="/">
+            Home
+          </Link>
+        </ul>
+        <ul className="home-middle-links">
+          <Link className="link" to="/about">
+            About Us
+          </Link>
+        </ul>
+
+        <div className="dropdown home-middle-links">
+          <button className="dropbtn">
+            Organizations units<i className="fa-solid fa-caret-down drop"></i>
+          </button>
+          <div class="dropdown-content">
+            <a className="link" href="http">
+              Society Chapter
+            </a>
+            <a className="link" href="http">
+              Student Branch
+            </a>
+            <a className="link" href="http">
+              Industry-Academic Form
+            </a>
           </div>
         </div>
+        <div className="dropdown home-middle-links">
+          <button className="dropbtn">
+            Committee<i className="fa-solid fa-caret-down drop"></i>
+          </button>
+          <div className="dropdown-content">
+            <a className="link" href="http">
+              Executive Committee
+            </a>
+            <a className="link" href="http">
+              SLATE
+            </a>
+            <a className="link" href="http">
+              Subsection Report
+            </a>
+          </div>
+        </div>
+        <div className="dropdown home-middle-links">
+          <button className="dropbtn">
+            Activities<i className="fa-solid fa-caret-down drop"></i>
+          </button>
+          <div className="dropdown-content">
+            <a className="link" href="http">
+              Student Activities
+            </a>
+            <a className="link" href="http">
+              Social Events
+            </a>
+            <a className="link" href="http">
+              Technical Events
+            </a>
+          </div>
+        </div>
+        <ul className="home-middle-links">
+          <Link className="link" to="/event">
+            Events
+          </Link>
+        </ul>
+        <ul className="home-middle-links">
+          <Link className="link" to="/gallery">
+            Gallery
+          </Link>
+        </ul>
+        <ul className="home-middle-links">
+          <Link className="link" to="/email">
+            Contact
+          </Link>
+        </ul>
       </div>
     </>
   );
