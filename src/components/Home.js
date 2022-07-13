@@ -19,20 +19,95 @@ export default function Home() {
           </ul>
           <ul className="home-news-left-2">
             <h3 className="home-news-head">For Members</h3>
-            <li className="home-news-list">Renew your membership</li>
-            <li className="home-news-list">Join a community</li>
-            <li className="home-news-list">Create a student branch</li>
-            <li className="home-news-list">Create a student branch chapter</li>
-            <li className="home-news-list">Create a student branch</li>
+            <li className="home-news-list">
+              <a
+                href="https://www.ieee.org/membership/renew.html"
+                className="link"
+              >
+                Renew your membership
+              </a>
+            </li>
+            <li className="home-news-list">
+              <a href="https://www.ieee.org/communities/" className="link">
+                Join a community
+              </a>
+            </li>
+            <li className="home-news-list">
+              <a
+                href="https://mga.ieee.org/resources-operations/geographic-unit/chapters/how-to-create-a-new-ieee-chapter"
+                className="link"
+              >
+                Create a society chapter
+              </a>
+            </li>
+            <li className="home-news-list">
+              <a
+                href="https://mga.ieee.org/resources-operations/formations-petitions#student"
+                className="link"
+              >
+                Create a student branch chapter
+              </a>
+            </li>
+            <li className="home-news-list">
+              <a
+                href="https://mga.ieee.org/resources-operations/formations-petitions#branch-chapters"
+                className="link"
+              >
+                Create a student branch
+              </a>
+            </li>
           </ul>
           <ul className="home-news-left-3">
             <h3 className="home-news-head">Get Involved</h3>
-            <li className="home-news-list">Become a member</li>
-            <li className="home-news-list">Volunteer</li>
-            <li className="home-news-list">Join a Society</li>
-            <li className="home-news-list">Organize a conference</li>
-            <li className="home-news-list">Publish a paper</li>
-            <li className="home-news-list">join a student working group</li>
+            <li className="home-news-list">
+              <a
+                href="https://www.ieee.org/membership/join/index.html"
+                className="link"
+              >
+                Become a member
+              </a>
+            </li>
+            <li className="home-news-list">
+              <a
+                href="https://www.ieee.org/about/volunteers/ieee-volunteering-opportunities.html"
+                className="link"
+              >
+                Volunteer
+              </a>
+            </li>
+            <li className="home-news-list">
+              <a
+                href="https://www.ieee.org/membership-catalog/index.html?srchProdType=Societies&searchType=prodType"
+                className="link"
+              >
+                Join a Society
+              </a>
+            </li>
+            <li className="home-news-list">
+              <a
+                href="https://www.ieee.org/conferences/organizers/conference-application-form.html"
+                className="link"
+              >
+                Organize a conference
+              </a>
+            </li>
+            <li className="home-news-list">
+              <a
+                href="https://journals.ieeeauthorcenter.ieee.org/submit-your-article-for-peer-review/the-ieee-article-submission-process/"
+                className="link"
+              >
+                Publish a paper
+              </a>
+            </li>
+            <li className="home-news-list">
+              {" "}
+              <a
+                href="https://standards.ieee.org/about/membership/"
+                className="link"
+              >
+                join a student working group
+              </a>
+            </li>
           </ul>
         </div>
         <div className="home-news-mid">
@@ -90,7 +165,11 @@ export default function Home() {
               <p className="event-des">
                 CALCON is the flagship conference of the IEEE Kolkata Section.
               </p>
-              <button className="event-btn"> Read more</button>
+              <button className="event-btn">
+                <Link className="link1" to="/event">
+                  Read More
+                </Link>
+              </button>
             </div>
           </div>
         </div>
@@ -108,7 +187,12 @@ export default function Home() {
                 CALCON 2022 - Kolkata, India CALCON is the flagship conference
                 of the IEEE Kolkata Section.
               </p>
-              <button className="event-btn"> Read more</button>
+              <button className="event-btn">
+                {" "}
+                <Link className="link1" to="/event">
+                  Read More
+                </Link>
+              </button>
             </div>
           </div>
         </div>
@@ -125,7 +209,11 @@ export default function Home() {
               <p className="event-des">
                 CALCON is the flagship conference of the IEEE Kolkata Section.
               </p>
-              <button className="event-btn"> Read more</button>
+              <button className="event-btn">
+                <Link className="link1" to="/event">
+                  Read More
+                </Link>
+              </button>
             </div>
           </div>
         </div>
@@ -197,7 +285,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Scroll/>
+      <Scroll />
     </div>
   );
 }
