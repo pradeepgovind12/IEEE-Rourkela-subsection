@@ -1,0 +1,40 @@
+.student-head{
+    color: rgb(16, 11, 108);
+}
+.student-container{
+    margin:0 7%;
+}
+.student-heading-head{
+    display: block;
+    text-align: center;
+    font-size:20px;
+    color:rgb(83, 106, 112);
+}
+.student-1{
+    font-size: 15px;
+}
+.student-heading{
+    height: 75px;
+    width: 100%;
+    background-color: rgb(151, 223, 241);
+    padding-top: 25px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.student-table{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

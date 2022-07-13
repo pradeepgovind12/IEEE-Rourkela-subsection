@@ -1,4 +1,5 @@
 import "./gallery.css";
+import Scroll from ".././components/scroll/Scroll"
 import { useState } from "react";
 export default function Gallery() {
   const [slideNumber, setSlideNumber] = useState(0);
@@ -132,6 +133,7 @@ export default function Gallery() {
           </div>
         ))}
       </div>
+      <Scroll />
     </div>
   );
 }

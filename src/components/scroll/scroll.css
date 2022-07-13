@@ -1,0 +1,22 @@
+.scroll-top{
+    border: none;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(44, 136, 193);
+    color: white;
+    cursor: pointer;
+}
+.move-up{
+    position: fixed;
+  margin-right: 50px;
+  cursor: pointer;
+  bottom: 30px;
+  right: 0;
+  z-index: 1;
+  text-align: center;
+  height: 45px;
+  line-height: 46px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+
+}

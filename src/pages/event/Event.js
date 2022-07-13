@@ -1,5 +1,5 @@
 import "./event.css";
-
+import Scroll from "../../components/scroll/Scroll";
 export default function About() {
   return (
     <div className="about-container">
@@ -75,6 +75,7 @@ export default function About() {
           </div>
         </p>
       </div>
+      <Scroll />
     </div>
   );
 }

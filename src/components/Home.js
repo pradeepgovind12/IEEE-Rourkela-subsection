@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./home.css";
+import Scroll from "./scroll/Scroll";
 export default function Home() {
   return (
     <div className="home-container">
@@ -196,6 +197,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Scroll/>
     </div>
   );
 }

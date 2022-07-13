@@ -1,0 +1,55 @@
+.members-container{
+    margin: 0 7%;
+}
+.members-head{
+    color: rgb(16, 11, 108);
+}
+.members-2{
+    display: flex;
+}
+.members-menu{
+    flex: 1;
+    text-align: center;
+}
+.members-des{
+    display: block;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.members-name{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.email-icon{
+    margin-right: 5px;
+}
+.members-img{
+    border-radius: 5px;
+}
+.members-menu{
+    border: 1px solid rgb(198, 193, 193);
+    
+    margin: 0 12.5px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.members-header{
+    height: 40px;
+    width: 100%;
+    background-color: skyblue;
+    align-items: left;
+    padding-top: 15px;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+.members-span{
+    font-size: 20px;
+    color: rgb(51, 123, 152);
+}
+.members-4{
+    margin-bottom: 50px;
+}
+

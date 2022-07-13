@@ -27,6 +27,7 @@ export default function Email() {
       <div className="email-content">
         <h1 className="email-head">Contact us</h1>
       </div>
+      <hr className="line class-line"></hr>
       <div className="email-container">
         <div className="email-left">
           <form className="form" ref={formRef} onSubmit={handleSubmit}>

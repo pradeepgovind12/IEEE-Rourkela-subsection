@@ -1,11 +1,11 @@
 .nav{
     height: 50px;
-    width: 100%;
     background-color: rgb(69, 69, 69);
     color: white;
     display: flex;
     flex-direction: row;
 }
+
 .link{
     text-decoration: none;
     color: white;
@@ -45,7 +45,7 @@
     cursor: pointer;
 }
 .home-icon:hover{
-    color: rgb(30, 156, 187);
+    color: blue;
 }
 .home-middle{
     display: flex;
@@ -104,4 +104,11 @@
 
 .drop{
     margin-left: 10px;
+}
+.nav-ieee{
+    text-decoration: none;
+    color: rgb(16, 11, 108);
+}
+.nav-ieee:hover{
+    color: blue;
 }

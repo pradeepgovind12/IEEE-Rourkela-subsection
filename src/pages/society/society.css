@@ -8,7 +8,6 @@
 .society-email{
     text-decoration: none;
     color: blue;
-    display: block;
 }
 .society-email:hover{
     text-decoration: underline;
@@ -42,6 +41,7 @@
 }
 .chapter-website{
     margin-top: 10px;
+    display: block;
 }
 .society-menu{
     height: 150px;
@@ -51,5 +51,4 @@
     border-radius: 5px;
     position: relative;
 }
-
 

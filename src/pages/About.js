@@ -1,5 +1,5 @@
 import "./about.css";
-
+import Scroll from ".//../components/scroll/Scroll";
 export default function About() {
   return (
     <div className="about-container">
@@ -49,6 +49,7 @@ export default function About() {
           which a major focus of the section.
         </p>
       </div>
+      <Scroll />
     </div>
   );
 }

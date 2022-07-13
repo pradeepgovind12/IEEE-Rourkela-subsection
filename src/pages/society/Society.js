@@ -23,8 +23,8 @@ export default function Society() {
             AP-MTT Chapter [Chapter Code : AP03/MTT17]
           </span>
           <div className="society-sub-head">
-            <span className="society-span">Chairperson: Koushik Dutta</span>
-            <a className="society-email" href="mailto:someone@example.com">
+            <div className="society-span">Chairperson: Koushik Dutta</div>
+            <a className="society-email " href="mailto:someone@example.com">
               someone@example.com
             </a>
           </div>
