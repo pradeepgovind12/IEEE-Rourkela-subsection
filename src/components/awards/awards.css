@@ -1,0 +1,27 @@
+.awards-container{
+    margin: 0 7%;
+}
+.awards-head{
+    color: rgb(16, 11, 108);
+}
+.pride-btn{
+    height: 30px;
+    border-radius: 3px;
+    cursor: pointer;
+     background-color: white;
+    border: 1px solid black;
+}
+.pride-btn:hover{
+   background-color: rgb(88, 88, 196);
+   border: none;
+}
+.awards-2{
+    text-align: right;
+}
+.link3{
+    text-decoration: none;
+    color: black;
+}
+.link3:hover{
+    color: white;
+}

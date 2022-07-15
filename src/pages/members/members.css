@@ -26,6 +26,8 @@
 }
 .members-img{
     border-radius: 5px;
+    height: 200px;
+    width: 200px;
 }
 .members-menu{
     border: 1px solid rgb(198, 193, 193);
@@ -52,4 +54,18 @@
 .members-4{
     margin-bottom: 50px;
 }
-
+.members-btn{
+    height: 30px;
+    background-color: rgb(188, 40, 40);
+    border: none;
+    color: white;
+    border-radius: 3px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.members-btn:hover{
+    background-color: rgb(255, 0, 0);
+}
+.members-email{
+    color: blue;
+}

@@ -1,0 +1,19 @@
+.pride-head{
+    color: rgb(16, 11, 108);
+}
+.pride-container{
+    margin:0 7%;
+    margin-bottom: 30px;
+}
+.pride-div{
+    height: 35px;
+    background-color: rgb(232, 241, 241);
+    padding-top: 10px;
+    font-size: 20px;
+    padding-left: 15px;
+    color: rgb(58, 55, 55);
+    border: 1px solid rgb(108, 105, 105);
+    border-radius: 3px;
+    margin-top: 5px;
+    cursor: pointer;
+}

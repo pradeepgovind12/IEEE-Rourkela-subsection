@@ -12,10 +12,26 @@ export default function Home() {
         <div className="home-news-left">
           <ul className="home-news-left-1">
             <h3 className="home-news-head">About Section</h3>
-            <li className="home-news-list">Mission/ Vision</li>
-            <li className="home-news-list">Accomplishment</li>
-            <li className="home-news-list">Executive Committee</li>
-            <li className="home-news-list">Sections Pride</li>
+            <li className="home-news-list">
+              <Link className="link" to="/mission">
+                Mission/ Vision
+              </Link>
+            </li>
+            <li className="home-news-list">
+              <Link className="link" to="/pride/awards">
+                Accomplishment
+              </Link>
+            </li>
+            <li className="home-news-list">
+              <Link className="link" to="/members">
+                Executive Committee
+              </Link>
+            </li>
+            <li className="home-news-list">
+              <Link className="link" to="/pride">
+                Section's Pride
+              </Link>
+            </li>
           </ul>
           <ul className="home-news-left-2">
             <h3 className="home-news-head">For Members</h3>

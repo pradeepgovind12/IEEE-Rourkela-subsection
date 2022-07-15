@@ -20,6 +20,9 @@ import Report from "./pages/report/Report";
 import Activity from "./pages/activity/Activity";
 import Social from "./pages/social/Social";
 import Tech from "./pages/tech/Tech";
+import Mission from "./pages/mission/Mission";
+import Pride from "./pages/pride/Pride";
+import Awards from "./components/awards/Awards";
 function App() {
   return (
     <BrowserRouter>
@@ -50,6 +53,9 @@ function App() {
         <Route path="/studentActivity" element={<Activity />} />
         <Route path="/socialEvents" element={<Social/>}/>
         <Route path="/techEvents" element={<Tech/>}/>
+        <Route path="/mission" element={<Mission/>}/>
+        <Route path="/pride" element={<Pride/>}/>
+        <Route path="/pride/awards" element={<Awards/>}/>
       </Routes>
 
       <Footer />

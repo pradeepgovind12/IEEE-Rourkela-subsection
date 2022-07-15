@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className="about-container">
       <div>
-        <h1 className="about-head">About Us</h1>
+        <h1 className="about-head">Events</h1>
         <hr className="line"></hr>
       </div>
       <div className="about-ieee">
