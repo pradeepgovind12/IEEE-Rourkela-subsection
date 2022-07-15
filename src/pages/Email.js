@@ -64,12 +64,12 @@ export default function Email() {
             <div className="email-right-12">
               <img
                 className="email-right-img"
-                src="https://ewh.ieee.org/r10/calcutta/images/chairkol.jpg"
+                src="https://nitrkl.ac.in//docs/Faculty/Photo/185471.jpg"
                 alt=""
               />
-              <h2 className="email-right-1-head">Chairperson</h2>
+              <h2 className="email-right-1-head">Chair</h2>
               <div>
-                <span className="span-email">Sushmita Mitra</span>
+                <span className="span-email">Kamalkanta Mahapatra</span>
 
                 <a className="email-link" href="mailto:webmaster@example.com">
                   <span className="span">webmaster@example.com</span>
@@ -81,12 +81,12 @@ export default function Email() {
             <div className="email-right-12">
               <img
                 className="email-right-img"
-                src="https://ewh.ieee.org/r10/calcutta/images/seckol.jpg"
+                src="https://nitrkl.ac.in//docs/Faculty/Photo/1201371.jpg"
                 alt=""
               />
               <h2 className="email-right-1-head">Secretary</h2>
               <div>
-                <span className="span-email">Susanta Ray</span>
+                <span className="span-email">Sanjeev Patel</span>
 
                 <a className="email-link" href="mailto:webmaster@example.com">
                   <span className="span">webmaster@example.com</span>

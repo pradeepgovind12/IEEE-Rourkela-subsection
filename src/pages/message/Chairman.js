@@ -6,7 +6,7 @@ export default function Chairman() {
       <hr className="line"></hr>
       <div className="chairman-container-1">
         <img
-          src="https://ewh.ieee.org/r10/calcutta/images/chairkol.jpg"
+          src="https://nitrkl.ac.in//docs/Faculty/Photo/185471.jpg"
           alt="placeholder"
           className="chairman-img"
         />
@@ -49,7 +49,7 @@ export default function Chairman() {
         </p>
       </div>
       <div className="chairman-container-3">
-        <span className="chairman-span">Sushmita Mitra</span>
+        <span className="chairman-span">Kamalkanta Mahapatra</span>
         <span>September 16, 2021</span>
       </div>
       <div className="chairman-container-4">

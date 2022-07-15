@@ -7,7 +7,7 @@ export default function Treasure() {
       <hr className="line"></hr>
       <div className="chairman-container-1">
         <img
-          src="https://ewh.ieee.org/r10/calcutta/images/pic/tnag.jpeg"
+          src="https://nitrkl.ac.in//docs/Faculty/Photo/1110949.jpg"
           alt="placeholder"
           className="chairman-img"
         />
@@ -50,20 +50,20 @@ export default function Treasure() {
         </p>
       </div>
       <div className="chairman-container-3">
-        <span className="chairman-span">Susanta Ray</span>
+        <span className="chairman-span">Ayas Kanta Swain</span>
         <span>September 16, 2021</span>
       </div>
       <div className="chairman-container-4">
         <button className="chairman-btn">
           {" "}
           <a href="http://localhost:3000/message/chairman" className="link">
-            Chairperson's Message'
+            Chairperson's Message
           </a>
         </button>
         <button className="chairman-btn">
           {" "}
           <a href="http://localhost:3000/message/secretary" className="link">
-            Secretary's Message'
+            Secretary's Message
           </a>
         </button>
       </div>

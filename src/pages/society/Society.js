@@ -43,6 +43,73 @@ export default function Society() {
           </button>
         </div>
       </div>
+      <div className="society-menu">
+        <div className="society-menu-2">
+          <img
+            className="society-img"
+            src="https://ewh.ieee.org/r10/calcutta/images/blank_pic.jpg"
+            alt="profile-pic"
+          ></img>
+        </div>
+
+        <div className="society-menu-1">
+          <span className="society-head">
+            CAS Chapter [Chapter Code : CAS04]
+          </span>
+          <div className="society-sub-head">
+            <div className="society-span">Chairperson: Koushik Dutta</div>
+            <a className="society-email " href="mailto:someone@example.com">
+              someone@example.com
+            </a>
+          </div>
+
+          <a className="society-email chapter-website" href="http">
+            Chapter website
+          </a>
+
+          <button
+            onClick={() => {
+              setModalOpen(true);
+            }}
+            className="society-btn"
+          >
+            About CAS Chapter
+          </button>
+        </div>
+      </div>
+      <div className="society-menu">
+        <div className="society-menu-2">
+          <img
+            className="society-img"
+            src="https://ewh.ieee.org/r10/calcutta/images/blank_pic.jpg"
+            alt="profile-pic"
+          ></img>
+        </div>
+
+        <div className="society-menu-1">
+          <span className="society-head">Computer [Chapter Code : C16]</span>
+          <div className="society-sub-head">
+            <div className="society-span">Chairperson: Koushik Dutta</div>
+            <a className="society-email " href="mailto:someone@example.com">
+              someone@example.com
+            </a>
+          </div>
+
+          <a className="society-email chapter-website" href="http">
+            Chapter website
+          </a>
+
+          <button
+            onClick={() => {
+              setModalOpen(true);
+            }}
+            className="society-btn"
+          >
+            About Computer Chapter
+          </button>
+        </div>
+      </div>
+
       {modalOpen && <Popup setOpenModal={setModalOpen} />}
     </div>
   );

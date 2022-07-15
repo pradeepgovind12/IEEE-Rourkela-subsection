@@ -241,7 +241,7 @@ export default function Home() {
       <div className="message">
         <div className="message-left">
           <img
-            src="https://ewh.ieee.org/r10/calcutta/images/chairkol.jpg"
+            src=" https://nitrkl.ac.in//docs/Faculty/Photo/185471.jpg"
             alt=""
             className="profile-pic"
           ></img>
@@ -262,7 +262,7 @@ export default function Home() {
         </div>
         <div className="message-mid">
           <img
-            src="https://ewh.ieee.org/r10/calcutta/images/seckol.jpg"
+            src="https://nitrkl.ac.in//docs/Faculty/Photo/1201371.jpg"
             alt=""
             className="profile-pic"
           ></img>
@@ -282,7 +282,7 @@ export default function Home() {
         </div>
         <div className="message-right">
           <img
-            src="https://ewh.ieee.org/r10/calcutta/images/pic/tnag.jpeg"
+            src="https://nitrkl.ac.in//docs/Faculty/Photo/1110949.jpg"
             alt=""
             className="profile-pic"
           ></img>

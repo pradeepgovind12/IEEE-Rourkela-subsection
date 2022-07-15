@@ -7,7 +7,7 @@ export default function Secretary() {
       <hr className="line"></hr>
       <div className="chairman-container-1">
         <img
-          src="https://ewh.ieee.org/r10/calcutta/images/seckol.jpg"
+          src="https://nitrkl.ac.in//docs/Faculty/Photo/1201371.jpg"
           alt="placeholder"
           className="chairman-img"
         />
@@ -50,18 +50,19 @@ export default function Secretary() {
         </p>
       </div>
       <div className="chairman-container-3">
-        <span className="chairman-span">Susanta Ray</span>
+        <span className="chairman-span">Sanjeev Patel</span>
         <span>September 16, 2021</span>
       </div>
       <div className="chairman-container-4">
         <button className="chairman-btn">
           <a href="http://localhost:3000/message/chairman" className="link">
-            Chairperson's Message'
+            Chairperson's Message
           </a>
         </button>
         <button className="chairman-btn">
           <a href="http://localhost:3000/message/treasure" className="link">
-            Treasure's Message          </a>
+            Treasure's Message{" "}
+          </a>
         </button>
       </div>
     </div>
