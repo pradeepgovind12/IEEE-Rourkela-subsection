@@ -54,7 +54,7 @@ export default function Student() {
           <tr>
             <td>01</td>
             <td>NIT Rourkela</td>
-            <td>President</td>
+            <td>C</td>
             <td>Acharya</td>
             <td>Ashok</td>
             <td>Kumar</td>
@@ -67,10 +67,10 @@ export default function Student() {
           <tr>
             <td>01</td>
             <td>NIT Rourkela</td>
-            <td>President</td>
-            <td>Acharya</td>
-            <td>Ashok</td>
-            <td>Kumar</td>
+            <td>Counselor</td>
+            <td>Patel</td>
+            <td>Sanjeev</td>
+            <td></td>
             <td>
               <a className="society-email" href="mailto:ashokkumar@gmail.com">
                 ashokkumar@gmail.com
@@ -80,9 +80,9 @@ export default function Student() {
           <tr>
             <td>01</td>
             <td>NIT Rourkela</td>
-            <td>President</td>
+            <td>Secretary</td>
             <td>Acharya</td>
-            <td>Ashok</td>
+            <td></td>
             <td>Kumar</td>
             <td>
               <a className="society-email" href="mailto:ashokkumar@gmail.com">

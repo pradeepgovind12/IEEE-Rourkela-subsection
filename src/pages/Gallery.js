@@ -5,80 +5,27 @@ export default function Gallery() {
   const [slideNumber, setSlideNumber] = useState(0);
   const [open, setOpen] = useState(false);
   const photos = [
+    
+    
+    
     {
-      src: "https://ewh.ieee.org/r10/calcutta/images/PhotoGallery/online2021/CVR2.jpg",
+      src: "https://site.ieee.org/indiacouncil/files/2021/01/3.jpeg", alt:"image loading"
     },
     {
-      src: "https://ewh.ieee.org/r10/calcutta/images/PhotoGallery/online2021/KR1.jpg",
+      src: "https://site.ieee.org/indiacouncil/files/2021/01/1.jpeg", alt:"image loading"
     },
     {
-      src: "https://ewh.ieee.org/r10/calcutta/images/PhotoGallery/calcon2020/DSC_0601.jpg",
+      src: "https://site.ieee.org/indiacouncil/files/2021/01/5.jpeg", alt:"image loading"
     },
     {
-      src: "https://ewh.ieee.org/r10/calcutta/images/PhotoGallery/calcon2020/IMG2020.jpg",
+      src: "https://site.ieee.org/indiacouncil/files/2021/01/2.jpeg", alt:"image loading"
     },
-    {
-      src: "https://ewh.ieee.org/r10/calcutta/images/PhotoGallery/calcon2020/IMGL6586.jpg",
-    },
-    {
-      src: "https://ewh.ieee.org/r10/calcutta/images/PhotoGallery/tensymp2019/IMGL6615.jpg",
-    },
-    {
-      src: "https://ewh.ieee.org/r10/calcutta/images/PhotoGallery/tensymp2019/IMGL6939.jpg",
-    },
+    
     {
       src: "https://ewh.ieee.org/r10/calcutta/images/PhotoGallery/tensymp2019/IMGL6945.jpg",
     },
     {
-      src: "https://ewh.ieee.org/r10/calcutta/images/PhotoGallery/tensymp2019/IMGL6951.jpg",
-    },
-    {
-      src: "https://ewh.ieee.org/r10/calcutta/images/PhotoGallery/tensymp2019/IMGL6615.jpg",
-    },
-    {
-      src: "https://ewh.ieee.org/r10/calcutta/images/PhotoGallery/tensymp2019/IMGL6939.jpg",
-    },
-    {
-      src: "https://ewh.ieee.org/r10/calcutta/images/PhotoGallery/tensymp2019/IMGL6945.jpg",
-    },
-    {
-      src: "https://ewh.ieee.org/r10/calcutta/images/PhotoGallery/tensymp2019/IMGL6951.jpg",
-    },
-    {
-      src: "https://ewh.ieee.org/r10/calcutta/images/PhotoGallery/online2021/KR1.jpg",
-    },
-    {
-      src: "https://ewh.ieee.org/r10/calcutta/images/PhotoGallery/calcon2020/DSC_0601.jpg",
-    },
-    {
-      src: "https://ewh.ieee.org/r10/calcutta/images/PhotoGallery/calcon2020/IMG2020.jpg",
-    },
-    {
-      src: "https://ewh.ieee.org/r10/calcutta/images/PhotoGallery/calcon2020/IMGL6586.jpg",
-    },
-    {
-      src: "https://ewh.ieee.org/r10/calcutta/images/PhotoGallery/tensymp2019/IMGL6615.jpg",
-    },
-    {
-      src: "https://ewh.ieee.org/r10/calcutta/images/PhotoGallery/tensymp2019/IMGL6939.jpg",
-    },
-    {
-      src: "https://ewh.ieee.org/r10/calcutta/images/PhotoGallery/tensymp2019/IMGL6945.jpg",
-    },
-    {
-      src: "https://ewh.ieee.org/r10/calcutta/images/PhotoGallery/tensymp2019/IMGL6951.jpg",
-    },
-    {
-      src: "https://ewh.ieee.org/r10/calcutta/images/PhotoGallery/tensymp2019/IMGL6615.jpg",
-    },
-    {
-      src: "https://ewh.ieee.org/r10/calcutta/images/PhotoGallery/tensymp2019/IMGL6939.jpg",
-    },
-    {
-      src: "https://ewh.ieee.org/r10/calcutta/images/PhotoGallery/tensymp2019/IMGL6945.jpg",
-    },
-    {
-      src: "https://ewh.ieee.org/r10/calcutta/images/PhotoGallery/tensymp2019/IMGL6951.jpg",
+      src: "https://site.ieee.org/indiacouncil/files/2021/01/1.jpeg",
     },
   ];
   const handleOpen = (i) => {

@@ -248,7 +248,7 @@ export default function Home() {
           <div className="message-text">
             <h2 className="message-head">Chairperson's Message</h2>
             <p className="message-para">
-              To the Members of the Kolkata Section : During the ongoing
+              To the Members of the Rourkela Sub-Section : During the ongoing
               difficult times of the pandemic, first of all I convey my sincere
               thanks to all of you for having strived to take our section
               forward with your hard work and efforts.....

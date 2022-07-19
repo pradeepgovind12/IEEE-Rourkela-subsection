@@ -51,7 +51,7 @@ export default function Report() {
             <ul>
               <li>
                 <a href="http" className="society-email">
-                  Annual General Meeting - 2021
+                  Annual General Meeting - 2022
                 </a>
               </li>
               <li>
@@ -61,34 +61,10 @@ export default function Report() {
               </li>
               <li>
                 <a href="http" className="society-email">
-                  Annual General Meeting - 2021
+                  Annual General Meeting - 2020
                 </a>
               </li>
-              <li>
-                <a href="http" className="society-email">
-                  Annual General Meeting - 2021
-                </a>
-              </li>
-              <li>
-                <a href="http" className="society-email">
-                  Annual General Meeting - 2021
-                </a>
-              </li>
-              <li>
-                <a href="http" className="society-email">
-                  Annual General Meeting - 2021
-                </a>
-              </li>
-              <li>
-                <a href="http" className="society-email">
-                  Annual General Meeting - 2021
-                </a>
-              </li>
-              <li>
-                <a href="http" className="society-email">
-                  Annual General Meeting - 2021
-                </a>
-              </li>
+             
             </ul>
             <span className="slate-span">AGM Minute</span>
             <ul>
@@ -99,7 +75,7 @@ export default function Report() {
               </li>
               <li>
                 <a href="http" className="society-email">
-                  Annual General Meeting - 2021
+                  Annual General Meeting - 2022
                 </a>
               </li>
               <li>
@@ -109,30 +85,10 @@ export default function Report() {
               </li>
               <li>
                 <a href="http" className="society-email">
-                  Annual General Meeting - 2021
+                  Annual General Meeting - 2020
                 </a>
               </li>
-              <li>
-                <a href="http" className="society-email">
-                  Annual General Meeting - 2021
-                </a>
-              </li>
-              <li>
-                <a href="http" className="society-email">
-                  Annual General Meeting - 2021
-                </a>
-              </li>
-              <li>
-                <a href="http" className="society-email">
-                  Annual General Meeting - 2021
-                </a>
-              </li>
-              <li>
-                <a href="http" className="society-email">
-                  Annual General Meeting - 2021
-                </a>
-              </li>
-            </ul>
+             </ul>
           </div>
 
           <div

@@ -23,7 +23,7 @@ export default function Society() {
             AP-MTT Chapter [Chapter Code : AP03/MTT17]
           </span>
           <div className="society-sub-head">
-            <div className="society-span">Chairperson: Koushik Dutta</div>
+            <div className="society-span">Chairperson: Sanjeev Patel</div>
             <a className="society-email " href="mailto:someone@example.com">
               someone@example.com
             </a>
@@ -35,7 +35,7 @@ export default function Society() {
 
           <button
             onClick={() => {
-              setModalOpen(true);
+              "To be updated Soon";
             }}
             className="society-btn"
           >
@@ -57,7 +57,7 @@ export default function Society() {
             CAS Chapter [Chapter Code : CAS04]
           </span>
           <div className="society-sub-head">
-            <div className="society-span">Chairperson: Koushik Dutta</div>
+            <div className="society-span">Chairperson: Sanjeev Patel</div>
             <a className="society-email " href="mailto:someone@example.com">
               someone@example.com
             </a>
@@ -69,7 +69,8 @@ export default function Society() {
 
           <button
             onClick={() => {
-              setModalOpen(true);
+              // button function to be updated Soon"
+              ;
             }}
             className="society-btn"
           >
@@ -89,7 +90,7 @@ export default function Society() {
         <div className="society-menu-1">
           <span className="society-head">Computer [Chapter Code : C16]</span>
           <div className="society-sub-head">
-            <div className="society-span">Chairperson: Koushik Dutta</div>
+            <div className="society-span">Chairperson: Sanjeev Patel</div>
             <a className="society-email " href="mailto:someone@example.com">
               someone@example.com
             </a>
@@ -101,7 +102,8 @@ export default function Society() {
 
           <button
             onClick={() => {
-              setModalOpen(true);
+              //button function
+              ;
             }}
             className="society-btn"
           >

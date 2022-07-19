@@ -43,11 +43,13 @@ export default function Nav() {
         </div>
         <div className="home-top">
           <div className="home-top-mid">
+            <a href ="https://www.ieee.org">
             <img
               src="https://purelifi.com/wp-content/uploads/2018/05/IEEE-Logo-1.png"
               alt="IEEE"
               className="img"
             ></img>
+            </a>
           </div>
           <div className="home-top-left">
             <Link className="nav-ieee" to="/">
@@ -58,7 +60,7 @@ export default function Nav() {
           <div className="home-top-right">
             <a
               className="link"
-              href="https://www.facebook.com/groups/296725217027996"
+              href="https://www.facebook.com/groups/ieeerourkelasubsection/"
             >
               {" "}
               <i className="fa-brands fa-facebook fa-2x home-icon"></i>
